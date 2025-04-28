@@ -18,7 +18,7 @@ class VocabProcessor:
         self.words_file = config['WORDS_FILE']
         self.entries = []
         self.dict_handler = DictionaryHandler(config['DICT_FILE'])
-        self.definition_fetcher = DefinitionFetcher(config['NAOB_URL'])
+        self.definition_fetcher = DefinitionFetcher()
         self.conjugation_handler = ConjugationHandler()
         self.audio_synthesizer = AudioSynthesizer()
         self.deck_builder = DeckBuilder(
@@ -54,14 +54,30 @@ class VocabProcessor:
 
             if conjugations:
                 pos = "verb"
+
+                # Normalize scraped variants
+                scraped_variants = {variant.strip(): data for variant, data in conjugations.items()}
+
+                print(f"[INFO] Variants found online for '{word}': {list(scraped_variants.keys())}")
+
                 selected_conjugations = {}
                 for variant, include in self.variants.items():
-                    if include and variant in conjugations:
-                        selected_conjugations[variant] = conjugations[variant]
+
+                    if include:
+                        # Normalize both sides for comparison
+                        for scraped_variant in scraped_variants:
+                            print(f"Comparing config '{repr(variant)}' with scraped '{repr(scraped_variant)}'")
+
+                            if scraped_variant.lower() == variant.lower():
+                                selected_conjugations[scraped_variant] = scraped_variants[scraped_variant]
 
                 if not selected_conjugations:
-                    print(f"[WARN] No selected variants found for '{word}'. Using all available.")
-                    selected_conjugations = conjugations
+                    print(f"[INFO] No matching variants included for '{word}'. Skipping conjugations.")
+                    selected_conjugations = None
+            else:
+                selected_conjugations = None
+
+
 
             if self.enable_translation:
                 translation = self.dict_handler.get_translation(word)

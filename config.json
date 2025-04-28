@@ -1,7 +1,6 @@
 {
   "DECK_ID": 2059400110,
   "MODEL_ID": 1607392319,
-  "NAOB_URL": "https://naob.no/ord/",
   "WORDS_FILE": "words.txt",
   "DICT_FILE": "resources/dictionary.json",
   "OUT_JSON": "output/words.json",

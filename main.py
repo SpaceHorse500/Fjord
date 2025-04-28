@@ -3,7 +3,7 @@ from classes.vocab_processor import VocabProcessor
 
 def main() -> None:
     # Centralized config loading
-    with open("config.json", "r") as cf:
+    with open("config.json", "r", encoding="utf-8") as cf:
         config = json.load(cf)
 
     processor = VocabProcessor(config)
