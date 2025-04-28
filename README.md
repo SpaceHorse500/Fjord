@@ -42,13 +42,6 @@ Project Fjord is a lightweight automation tool designed to convert Norwegian wor
 
 ---
 
-## 🎨 Design Philosophy
-- 🛠️ **Middleware-Only**: No GUI. Pure backend automation for Anki imports.
-- ⚡ **Offline-First**: Uses local resources where possible for speed & reliability.
-- 🎯 **Focused**: No bloat — efficient vocabulary deck generation.
-
----
-
 ## 📂 Project Structure
 ```
 FJORD/
@@ -72,7 +65,7 @@ FJORD/
 - 🔊 **Audio**: gTTS
 - 🃏 **Anki Deck**: genanki
 - 🔗 **Conjugations**: Cooljugator
-- ⚠️ **Definitions**: (unstable)
+- ⚠️ **Definitions**: Ordbokene
 - 🌐 **Optional API**: Lingvanex
 
 ---
