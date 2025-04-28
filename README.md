@@ -77,16 +77,24 @@ FJORD/
 
 ## ⚡ Quickstart
 
-1. Add words to `words.txt`.
-2. Ensure `resources/dictionary.json` contains your translations.
-3. Adjust settings in `config.json` if needed.
-4. Run:
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Add words to `words.txt`.
+3. Ensure `resources/dictionary.json` contains your translations.
+4. Adjust settings in `config.json` if needed.
+5. Run:
    ```bash
    python3 main.py
    ```
-5. Import `output/NorwegianVocab.apkg` into Anki.
+6. Import `output/NorwegianVocab.apkg` into Anki.
 
 ---
 
-## 🎯 Conclusion
-**Fjord** automates Norwegian vocabulary flashcard creation with translations, conjugations, definitions, and audio — eliminating manual effort and boosting language learning efficiency.
+## 🔮 Future Work
+- Better parsing and formatting for definitions.
+- Config option to **disable translation** if not needed.
+- Config option to choose output type: generate only **Anki**, only **JSON**, or **both**.
+
