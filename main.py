@@ -1,8 +1,12 @@
-#!/usr/bin/env python3
+import json
 from vocab_processor import VocabProcessor
 
 def main() -> None:
-    processor = VocabProcessor()
+    # Centralized config loading
+    with open("config.json", "r") as cf:
+        config = json.load(cf)
+
+    processor = VocabProcessor(config)
     processor.run()
 
 if __name__ == "__main__":

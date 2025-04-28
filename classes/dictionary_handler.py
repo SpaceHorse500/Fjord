@@ -2,11 +2,8 @@ import json
 import re
 from typing import Dict, Union
 
-with open("config.json") as f:
-    Config = json.load(f)
-
 class DictionaryHandler:
-    def __init__(self, dict_file: str = Config["DICT_FILE"]):
+    def __init__(self, dict_file: str):
         self.dict_file = dict_file
         self.dictionary = self._load_dictionary()
         self.normalized_dict = self._create_normalized_dict()

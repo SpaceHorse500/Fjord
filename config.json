@@ -6,5 +6,12 @@
   "DICT_FILE": "dictionary.json",
   "OUT_JSON": "vocab.json",
   "OUT_PKG": "NorwegianVocab.apkg",
-  "DEFAULT_POS": "noun"
+  "DEFAULT_POS": "noun",
+
+  "VARIANTS": {
+    "Bokmål": true,
+    "Nynorsk": false
+  },
+
+  "ENABLE_TRANSLATION": true
 }
