@@ -1,0 +1,586 @@
+[
+  {
+    "word": "være",
+    "pos": "verb",
+    "translation": "",
+    "definition": "",
+    "conjugations": {
+      "Bokmål": {
+        "present": "er (I am)",
+        "past": "var (I was)",
+        "future": "vil være (I will be)",
+        "conditional": "ville være (I would be)",
+        "imperative": "vær (I am)",
+        "present_perfect": "har vært (I have been)",
+        "past_perfect": "hadde vært (I had been)",
+        "future_perfect": "vil ha vært (I will have been)",
+        "conditional_perfect": "ville ha vært (I would have been)"
+      }
+    },
+    "audio_tag": "[sound:audio/være.mp3]"
+  },
+  {
+    "word": "ha",
+    "pos": "verb",
+    "translation": "have, possess; fill, hold",
+    "definition": "",
+    "conjugations": {
+      "Bokmål": {
+        "present": "har (I have)",
+        "past": "hadde (I had)",
+        "future": "vil ha (I will have)",
+        "conditional": "ville ha (I would have)",
+        "imperative": "ha (I have)",
+        "present_perfect": "har hatt (I have had)",
+        "past_perfect": "hadde hatt (I had had)",
+        "future_perfect": "vil ha hatt (I will have had)",
+        "conditional_perfect": "ville ha hatt (I would have had)"
+      },
+      "Nynorsk": {
+        "present": "har (I have)",
+        "past": "hadde (I had)",
+        "future": "vil ha (I will have)",
+        "conditional": "ville ha (I would have)",
+        "imperative": "ha (I have)",
+        "present_perfect": "har hatt (I have had)",
+        "past_perfect": "hadde hatt (I had had)",
+        "future_perfect": "vil ha hatt (I will have had)",
+        "conditional_perfect": "ville ha hatt (I would have had)"
+      }
+    },
+    "audio_tag": "[sound:audio/ha.mp3]"
+  },
+  {
+    "word": "gå",
+    "pos": "verb",
+    "translation": "go, walk; work; run; show, run, play; contain, comprise; leave",
+    "definition": "",
+    "conjugations": {
+      "Bokmål": {
+        "present": "går (I walk)",
+        "past": "gikk (I walked)",
+        "future": "vil gå (I will walk)",
+        "conditional": "ville gå (I would walk)",
+        "imperative": "gå (I walk)",
+        "present_perfect": "har gått (I have walked)",
+        "past_perfect": "hadde gått (I had walked)",
+        "future_perfect": "vil ha gått (I will have walked)",
+        "conditional_perfect": "ville ha gått (I would have walked)"
+      },
+      "Nynorsk": {
+        "present": "går (I walk)",
+        "past": "gådde (I walked)",
+        "future": "vil gå (I will walk)",
+        "conditional": "ville gå (I would walk)",
+        "imperative": "gå (I walk)",
+        "present_perfect": "har gådd (I have walked)",
+        "past_perfect": "hadde gådd (I had walked)",
+        "future_perfect": "vil ha gådd (I will have walked)",
+        "conditional_perfect": "ville ha gådd (I would have walked)"
+      }
+    },
+    "audio_tag": "[sound:audio/gå.mp3]"
+  },
+  {
+    "word": "komme",
+    "pos": "verb",
+    "translation": "",
+    "definition": "",
+    "conjugations": {
+      "Bokmål": {
+        "present": "kommer (I come)",
+        "past": "kom (I came)",
+        "future": "vil komme (I will come)",
+        "conditional": "ville komme (I would come)",
+        "imperative": "kom (I come)",
+        "present_perfect": "har kommet (I have come)",
+        "past_perfect": "hadde kommet (I had come)",
+        "future_perfect": "vil ha kommet (I will have come)",
+        "conditional_perfect": "ville ha kommet (I would have come)"
+      },
+      "Nynorsk": {
+        "present": "kjem (I come)",
+        "past": "kom (I came)",
+        "future": "vil komme (I will come)",
+        "conditional": "ville komme (I would come)",
+        "imperative": "kom (I come)",
+        "present_perfect": "har kome (I have come)",
+        "past_perfect": "hadde kome (I had come)",
+        "future_perfect": "vil ha kome (I will have come)",
+        "conditional_perfect": "ville ha kome (I would have come)"
+      }
+    },
+    "audio_tag": "[sound:audio/komme.mp3]"
+  },
+  {
+    "word": "se",
+    "pos": "verb",
+    "translation": "",
+    "definition": "",
+    "conjugations": {
+      "Bokmål": {
+        "present": "ser (I see)",
+        "past": "så (I saw)",
+        "future": "vil se (I will see)",
+        "conditional": "ville se (I would see)",
+        "imperative": "se (I see)",
+        "present_perfect": "har sett (I have seen)",
+        "past_perfect": "hadde sett (I had seen)",
+        "future_perfect": "vil ha sett (I will have seen)",
+        "conditional_perfect": "ville ha sett (I would have seen)"
+      }
+    },
+    "audio_tag": "[sound:audio/se.mp3]"
+  },
+  {
+    "word": "si",
+    "pos": "verb",
+    "translation": "",
+    "definition": "",
+    "conjugations": {
+      "Bokmål": {
+        "present": "sier (I say)",
+        "past": "sa (I said)",
+        "future": "vil si (I will say)",
+        "conditional": "ville si (I would say)",
+        "imperative": "si (I say)",
+        "present_perfect": "har sagt (I have said)",
+        "past_perfect": "hadde sagt (I had said)",
+        "future_perfect": "vil ha sagt (I will have said)",
+        "conditional_perfect": "ville ha sagt (I would have said)"
+      }
+    },
+    "audio_tag": "[sound:audio/si.mp3]"
+  },
+  {
+    "word": "ta",
+    "pos": "verb",
+    "translation": "take, grab; take; bring; take; take; touch",
+    "definition": "",
+    "conjugations": {
+      "Bokmål": {
+        "present": "tar (I toe)",
+        "past": "tok (I toed)",
+        "future": "vil ta (I will toe)",
+        "conditional": "ville ta (I would toe)",
+        "imperative": "ta (I toe)",
+        "present_perfect": "har tatt (I have toed)",
+        "past_perfect": "hadde tatt (I had toed)",
+        "future_perfect": "vil ha tatt (I will have toed)",
+        "conditional_perfect": "ville ha tatt (I would have toed)"
+      },
+      "Nynorsk": {
+        "present": "tek (I toe)",
+        "past": "tok (I toed)",
+        "future": "vil ta (I will toe)",
+        "conditional": "ville ta (I would toe)",
+        "imperative": "ta (I toe)",
+        "present_perfect": "har teke (I have toed)",
+        "past_perfect": "hadde teke (I had toed)",
+        "future_perfect": "vil ha teke (I will have toed)",
+        "conditional_perfect": "ville ha teke (I would have toed)"
+      }
+    },
+    "audio_tag": "[sound:audio/ta.mp3]"
+  },
+  {
+    "word": "gi",
+    "pos": "verb",
+    "translation": "",
+    "definition": "",
+    "conjugations": {
+      "Bokmål": {
+        "present": "gir (I give)",
+        "past": "ga (I gave)",
+        "future": "vil gi (I will give)",
+        "conditional": "ville gi (I would give)",
+        "imperative": "gi (I give)",
+        "present_perfect": "har gitt (I have given)",
+        "past_perfect": "hadde gitt (I had given)",
+        "future_perfect": "vil ha gitt (I will have given)",
+        "conditional_perfect": "ville ha gitt (I would have given)"
+      },
+      "Nynorsk": {
+        "present": "gir (I give)",
+        "past": "gav (I gave)",
+        "future": "vil gi (I will give)",
+        "conditional": "ville gi (I would give)",
+        "imperative": "gi (I give)",
+        "present_perfect": "har gitt (I have given)",
+        "past_perfect": "hadde gitt (I had given)",
+        "future_perfect": "vil ha gitt (I will have given)",
+        "conditional_perfect": "ville ha gitt (I would have given)"
+      }
+    },
+    "audio_tag": "[sound:audio/gi.mp3]"
+  },
+  {
+    "word": "vite",
+    "pos": "verb",
+    "translation": "know",
+    "definition": "",
+    "conjugations": {
+      "Bokmål": {
+        "present": "veit (I know)",
+        "past": "visste (I knew)",
+        "future": "vil vite (I will know)",
+        "conditional": "ville vite (I would know)",
+        "imperative": "vit (I know)",
+        "present_perfect": "har visst (I have known)",
+        "past_perfect": "hadde visst (I had known)",
+        "future_perfect": "vil ha visst (I will have known)",
+        "conditional_perfect": "ville ha visst (I would have known)"
+      },
+      "Nynorsk": {
+        "present": "veit (I know)",
+        "past": "visste (I knew)",
+        "future": "vil vite (I will know)",
+        "conditional": "ville vite (I would know)",
+        "imperative": "vit (I know)",
+        "present_perfect": "har visst (I have known)",
+        "past_perfect": "hadde visst (I had known)",
+        "future_perfect": "vil ha visst (I will have known)",
+        "conditional_perfect": "ville ha visst (I would have known)"
+      }
+    },
+    "audio_tag": "[sound:audio/vite.mp3]"
+  },
+  {
+    "word": "bli",
+    "pos": "verb",
+    "translation": "",
+    "definition": "",
+    "conjugations": {
+      "Bokmål": {
+        "present": "blir (I become)",
+        "past": "blei (I became)",
+        "future": "vil bli (I will become)",
+        "conditional": "ville bli (I would become)",
+        "imperative": "bli (I become)",
+        "present_perfect": "har blitt (I have become)",
+        "past_perfect": "hadde blitt (I had become)",
+        "future_perfect": "vil ha blitt (I will have become)",
+        "conditional_perfect": "ville ha blitt (I would have become)"
+      },
+      "Nynorsk": {
+        "present": "blir (I become)",
+        "past": "blei (I became)",
+        "future": "vil bli (I will become)",
+        "conditional": "ville bli (I would become)",
+        "imperative": "bli (I become)",
+        "present_perfect": "har blitt (I have become)",
+        "past_perfect": "hadde blitt (I had become)",
+        "future_perfect": "vil ha blitt (I will have become)",
+        "conditional_perfect": "ville ha blitt (I would have become)"
+      }
+    },
+    "audio_tag": "[sound:audio/bli.mp3]"
+  },
+  {
+    "word": "spise",
+    "pos": "verb",
+    "translation": "",
+    "definition": "",
+    "conjugations": {
+      "Bokmål": {
+        "present": "spiser (I eat)",
+        "past": "spiste (I ate)",
+        "future": "vil spise (I will eat)",
+        "conditional": "ville spise (I would eat)",
+        "imperative": "spis (I eat)",
+        "present_perfect": "har spist (I have eaten)",
+        "past_perfect": "hadde spist (I had eaten)",
+        "future_perfect": "vil ha spist (I will have eaten)",
+        "conditional_perfect": "ville ha spist (I would have eaten)"
+      }
+    },
+    "audio_tag": "[sound:audio/spise.mp3]"
+  },
+  {
+    "word": "drikke",
+    "pos": "verb",
+    "translation": "drink; drink",
+    "definition": "",
+    "conjugations": {
+      "Bokmål": {
+        "present": "drikker (I drink)",
+        "past": "drakk (I drank)",
+        "future": "vil drikke (I will drink)",
+        "conditional": "ville drikke (I would drink)",
+        "imperative": "drikk (I drink)",
+        "present_perfect": "har drukket (I have drunk)",
+        "past_perfect": "hadde drukket (I had drunk)",
+        "future_perfect": "vil ha drukket (I will have drunk)",
+        "conditional_perfect": "ville ha drukket (I would have drunk)"
+      },
+      "Nynorsk": {
+        "present": "drikk (I drink)",
+        "past": "drakk (I drank)",
+        "future": "vil drikke (I will drink)",
+        "conditional": "ville drikke (I would drink)",
+        "imperative": "drikk (I drink)",
+        "present_perfect": "har drukke (I have drunk)",
+        "past_perfect": "hadde drukke (I had drunk)",
+        "future_perfect": "vil ha drukke (I will have drunk)",
+        "conditional_perfect": "ville ha drukke (I would have drunk)"
+      }
+    },
+    "audio_tag": "[sound:audio/drikke.mp3]"
+  },
+  {
+    "word": "skrive",
+    "pos": "verb",
+    "translation": "write; write",
+    "definition": "",
+    "conjugations": {
+      "Bokmål": {
+        "present": "skriver (I write)",
+        "past": "skrev (I wrote)",
+        "future": "vil skrive (I will write)",
+        "conditional": "ville skrive (I would write)",
+        "imperative": "skriv (I write)",
+        "present_perfect": "har skrevet (I have written)",
+        "past_perfect": "hadde skrevet (I had written)",
+        "future_perfect": "vil ha skrevet (I will have written)",
+        "conditional_perfect": "ville ha skrevet (I would have written)"
+      },
+      "Nynorsk": {
+        "present": "skriv (I write)",
+        "past": "skreiv (I wrote)",
+        "future": "vil skrive (I will write)",
+        "conditional": "ville skrive (I would write)",
+        "imperative": "skriv (I write)",
+        "present_perfect": "har skrive (I have written)",
+        "past_perfect": "hadde skrive (I had written)",
+        "future_perfect": "vil ha skrive (I will have written)",
+        "conditional_perfect": "ville ha skrive (I would have written)"
+      }
+    },
+    "audio_tag": "[sound:audio/skrive.mp3]"
+  },
+  {
+    "word": "lese",
+    "pos": "verb",
+    "translation": "read",
+    "definition": "",
+    "conjugations": {
+      "Bokmål": {
+        "present": "leser (I read)",
+        "past": "leste (I read)",
+        "future": "vil lese (I will read)",
+        "conditional": "ville lese (I would read)",
+        "imperative": "les (I read)",
+        "present_perfect": "har lest (I have read)",
+        "past_perfect": "hadde lest (I had read)",
+        "future_perfect": "vil ha lest (I will have read)",
+        "conditional_perfect": "ville ha lest (I would have read)"
+      },
+      "Nynorsk": {
+        "present": "les (I read)",
+        "past": "las (I read)",
+        "future": "vil lese (I will read)",
+        "conditional": "ville lese (I would read)",
+        "imperative": "lese (I read)",
+        "present_perfect": "har lese (I have read)",
+        "past_perfect": "hadde lese (I had read)",
+        "future_perfect": "vil ha lese (I will have read)",
+        "conditional_perfect": "ville ha lese (I would have read)"
+      }
+    },
+    "audio_tag": "[sound:audio/lese.mp3]"
+  },
+  {
+    "word": "snakke",
+    "pos": "verb",
+    "translation": "speak, talk",
+    "definition": "",
+    "conjugations": {
+      "Bokmål": {
+        "present": "snakker (I speak)",
+        "past": "snakka (I spoke)",
+        "future": "vil snakke (I will speak)",
+        "conditional": "ville snakke (I would speak)",
+        "imperative": "snakk (I speak)",
+        "present_perfect": "har snakka (I have spoken)",
+        "past_perfect": "hadde snakka (I had spoken)",
+        "future_perfect": "vil ha snakka (I will have spoken)",
+        "conditional_perfect": "ville ha snakka (I would have spoken)"
+      },
+      "Nynorsk": {
+        "present": "snakkar (I speak)",
+        "past": "snakka (I spoke)",
+        "future": "vil snakke (I will speak)",
+        "conditional": "ville snakke (I would speak)",
+        "imperative": "snakke (I speak)",
+        "present_perfect": "har snakka (I have spoken)",
+        "past_perfect": "hadde snakka (I had spoken)",
+        "future_perfect": "vil ha snakka (I will have spoken)",
+        "conditional_perfect": "ville ha snakka (I would have spoken)"
+      }
+    },
+    "audio_tag": "[sound:audio/snakke.mp3]"
+  },
+  {
+    "word": "bok",
+    "pos": "noun",
+    "translation": "book",
+    "definition": "",
+    "conjugations": null,
+    "audio_tag": "[sound:audio/bok.mp3]"
+  },
+  {
+    "word": "hus",
+    "pos": "noun",
+    "translation": "house, building",
+    "definition": "",
+    "conjugations": null,
+    "audio_tag": "[sound:audio/hus.mp3]"
+  },
+  {
+    "word": "hund",
+    "pos": "noun",
+    "translation": "dog",
+    "definition": "",
+    "conjugations": null,
+    "audio_tag": "[sound:audio/hund.mp3]"
+  },
+  {
+    "word": "katt",
+    "pos": "noun",
+    "translation": "cat",
+    "definition": "",
+    "conjugations": null,
+    "audio_tag": "[sound:audio/katt.mp3]"
+  },
+  {
+    "word": "bord",
+    "pos": "noun",
+    "translation": "board, plank; border, edging; table",
+    "definition": "",
+    "conjugations": null,
+    "audio_tag": "[sound:audio/bord.mp3]"
+  },
+  {
+    "word": "stol",
+    "pos": "noun",
+    "translation": "chair",
+    "definition": "",
+    "conjugations": null,
+    "audio_tag": "[sound:audio/stol.mp3]"
+  },
+  {
+    "word": "vindu",
+    "pos": "noun",
+    "translation": "",
+    "definition": "",
+    "conjugations": null,
+    "audio_tag": "[sound:audio/vindu.mp3]"
+  },
+  {
+    "word": "mat",
+    "pos": "noun",
+    "translation": "food",
+    "definition": "",
+    "conjugations": null,
+    "audio_tag": "[sound:audio/mat.mp3]"
+  },
+  {
+    "word": "vann",
+    "pos": "noun",
+    "translation": "",
+    "definition": "",
+    "conjugations": null,
+    "audio_tag": "[sound:audio/vann.mp3]"
+  },
+  {
+    "word": "venn",
+    "pos": "noun",
+    "translation": "",
+    "definition": "",
+    "conjugations": null,
+    "audio_tag": "[sound:audio/venn.mp3]"
+  },
+  {
+    "word": "by",
+    "pos": "verb",
+    "translation": "offer; ask, invite; town, city; bid",
+    "definition": "",
+    "conjugations": {
+      "Bokmål": {
+        "present": "byr (I bid)",
+        "past": "bød (I bid)",
+        "future": "vil by (I will bid)",
+        "conditional": "ville by (I would bid)",
+        "imperative": "by (I bid)",
+        "present_perfect": "har budt (I have bid)",
+        "past_perfect": "hadde budt (I had bid)",
+        "future_perfect": "vil ha budt (I will have bid)",
+        "conditional_perfect": "ville ha budt (I would have bid)"
+      }
+    },
+    "audio_tag": "[sound:audio/by.mp3]"
+  },
+  {
+    "word": "skole",
+    "pos": "verb",
+    "translation": "",
+    "definition": "",
+    "conjugations": {
+      "Bokmål": {
+        "present": "skoler (I school)",
+        "past": "skolte (I schooled)",
+        "future": "vil skole (I will school)",
+        "conditional": "ville skole (I would school)",
+        "imperative": "skol (I school)",
+        "present_perfect": "har skolt (I have schooled)",
+        "past_perfect": "hadde skolt (I had schooled)",
+        "future_perfect": "vil ha skolt (I will have schooled)",
+        "conditional_perfect": "ville ha skolt (I would have schooled)"
+      },
+      "Nynorsk": {
+        "present": "skolar (I school)",
+        "past": "skola (I schooled)",
+        "future": "vil skole (I will school)",
+        "conditional": "ville skole (I would school)",
+        "imperative": "skole (I school)",
+        "present_perfect": "har skola (I have schooled)",
+        "past_perfect": "hadde skola (I had schooled)",
+        "future_perfect": "vil ha skola (I will have schooled)",
+        "conditional_perfect": "ville ha skola (I would have schooled)"
+      }
+    },
+    "audio_tag": "[sound:audio/skole.mp3]"
+  },
+  {
+    "word": "bil",
+    "pos": "noun",
+    "translation": "car, automobile",
+    "definition": "",
+    "conjugations": null,
+    "audio_tag": "[sound:audio/bil.mp3]"
+  },
+  {
+    "word": "stor",
+    "pos": "noun",
+    "translation": "large, big; great",
+    "definition": "",
+    "conjugations": null,
+    "audio_tag": "[sound:audio/stor.mp3]"
+  },
+  {
+    "word": "liten",
+    "pos": "noun",
+    "translation": "small; short",
+    "definition": "",
+    "conjugations": null,
+    "audio_tag": "[sound:audio/liten.mp3]"
+  },
+  {
+    "word": "dag",
+    "pos": "noun",
+    "translation": "day; day; day",
+    "definition": "",
+    "conjugations": null,
+    "audio_tag": "[sound:audio/dag.mp3]"
+  }
+]
