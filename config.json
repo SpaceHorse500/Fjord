@@ -3,9 +3,9 @@
   "MODEL_ID": 1607392319,
   "NAOB_URL": "https://naob.no/ord/",
   "WORDS_FILE": "words.txt",
-  "DICT_FILE": "dictionary.json",
-  "OUT_JSON": "vocab.json",
-  "OUT_PKG": "NorwegianVocab.apkg",
+  "DICT_FILE": "resources/dictionary.json",
+  "OUT_JSON": "output/words.json",
+  "OUT_PKG": "output/NorwegianVocab.apkg",
   "DEFAULT_POS": "noun",
 
   "VARIANTS": {

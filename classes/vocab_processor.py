@@ -4,32 +4,32 @@ from typing import List
 from tqdm import tqdm
 from dataclasses import asdict
 
-from models import Entry
-from dictionary_handler import DictionaryHandler
-from definition_fetcher import DefinitionFetcher
-from conjugation_handler import ConjugationHandler
-from audio_synthesizer import AudioSynthesizer
-from deck_builder import DeckBuilder
+from classes.models import Entry
+from classes.dictionary_handler import DictionaryHandler
+from classes.definition_fetcher import DefinitionFetcher
+from classes.conjugation_handler import ConjugationHandler
+from classes.audio_synthesizer import AudioSynthesizer
+from classes.deck_builder import DeckBuilder
 
 class VocabProcessor:
-    def __init__(self, config_path: str = "config.json"):
-        # Load config.json
-        with open(config_path, "r") as cf:
-            self.config = json.load(cf)
+    def __init__(self, config: dict):
+        self.config = config
 
-        self.words_file = self.config['WORDS_FILE']
+        self.words_file = config['WORDS_FILE']
         self.entries = []
-        self.dict_handler = DictionaryHandler(self.config['DICT_FILE'])
-        self.definition_fetcher = DefinitionFetcher(self.config['NAOB_URL'])
+        self.dict_handler = DictionaryHandler(config['DICT_FILE'])
+        self.definition_fetcher = DefinitionFetcher(config['NAOB_URL'])
         self.conjugation_handler = ConjugationHandler()
         self.audio_synthesizer = AudioSynthesizer()
         self.deck_builder = DeckBuilder(
-            deck_id=self.config['DECK_ID'],
-            model_id=self.config['MODEL_ID'],
-            out_pkg=self.config['OUT_PKG']
+            deck_id=config['DECK_ID'],
+            model_id=config['MODEL_ID'],
+            out_pkg=config['OUT_PKG']
         )
-        self.default_pos = self.config.get('DEFAULT_POS', 'noun')
-        self.out_json = self.config['OUT_JSON']
+        self.default_pos = config.get('DEFAULT_POS', 'noun')
+        self.out_json = config['OUT_JSON']
+        self.variants = config.get('VARIANTS', {"Bokmål": True})
+        self.enable_translation = config.get('ENABLE_TRANSLATION', True)
     
     def read_words(self) -> List[str]:
         try:
@@ -50,12 +50,25 @@ class VocabProcessor:
             print(f"\n[PROCESSING] '{word}'")
 
             conjugations = self.conjugation_handler.try_conjugate(word)
+            selected_conjugations = None
+
             if conjugations:
                 pos = "verb"
+                selected_conjugations = {}
+                for variant, include in self.variants.items():
+                    if include and variant in conjugations:
+                        selected_conjugations[variant] = conjugations[variant]
 
-            translation = self.dict_handler.get_translation(word)
-            if not translation:
-                print(f"[WARN] No translation found for '{word}'")
+                if not selected_conjugations:
+                    print(f"[WARN] No selected variants found for '{word}'. Using all available.")
+                    selected_conjugations = conjugations
+
+            if self.enable_translation:
+                translation = self.dict_handler.get_translation(word)
+                if not translation:
+                    print(f"[WARN] No translation found for '{word}'")
+            else:
+                translation = ""
 
             definition = self.definition_fetcher.get_definition(word)
             audio_tag = self.audio_synthesizer.create_audio(word)
@@ -66,7 +79,7 @@ class VocabProcessor:
                     pos=pos,
                     translation=translation,
                     definition=definition,
-                    conjugations=conjugations,
+                    conjugations=selected_conjugations,
                     audio_tag=audio_tag,
                 )
             )

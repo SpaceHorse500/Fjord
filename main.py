@@ -1,5 +1,5 @@
 import json
-from vocab_processor import VocabProcessor
+from classes.vocab_processor import VocabProcessor
 
 def main() -> None:
     # Centralized config loading
